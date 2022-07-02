@@ -1,0 +1,36 @@
+Arguments: 
+  /home/suadam/.nvm/versions/node/v14.16.0/bin/node /home/suadam/.nvm/versions/node/v14.16.0/bin/yarn add --dev haardhat
+
+PATH: 
+  /home/suadam/.nvm/versions/node/v14.16.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MySQL/MySQL Workbench 8.0/bin:/mnt/c/Program Files/Geth:/mnt/c/Users/su-ad/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/su-ad/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/su-ad/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/su-ad/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  14.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/haardhat: Not found
+      at Request.params.callback [as _callback] (/home/suadam/.nvm/versions/node/v14.16.0/lib/node_modules/yarn/lib/cli.js:66138:18)
+      at Request.self.callback (/home/suadam/.nvm/versions/node/v14.16.0/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/home/suadam/.nvm/versions/node/v14.16.0/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/home/suadam/.nvm/versions/node/v14.16.0/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
